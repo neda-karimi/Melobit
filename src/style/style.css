@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Bokor');
-@import url('https://fonts.googleapis.com/css?family=Kodchasan');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
 
 *{
     color: #ffff !important;
 
 }
 body{
-    background-color: #001534 !important;
+    background-color: #4a7575!important;
     padding-bottom: 30px;
 }
 h2{
@@ -25,7 +21,7 @@ header a{
 
 }
 header #searchDiv{
-    background-color:#FFFEFE66;
+    background-color:#608f8e ;
     width: 152px;
     height: 30px;
     border-radius: 50px;
@@ -41,8 +37,9 @@ header #searchDiv{
 
 }
 
+
 header button{
-    background-color:#FA2870 ;
+    background-color:#018786 ;
     border-radius:22.67px ;
     border: none;
     width: 88.4px;
@@ -54,7 +51,7 @@ header button{
 
  #boxSearch{
     height: 47px;
-    background-color: #0F2950E8;
+    background-color: #018786;
     border-radius: 20px;
 }
 #boxSearch input{
@@ -75,8 +72,9 @@ header button{
   cursor: pointer;
 }
 
+#topcomponent{
 
-
+}
 /*search cart component*/
 #divCartSearch{
    
@@ -227,7 +225,7 @@ border-radius: 10px;
 /* top */
 
 #topComponent{
-    background-color: #161D35;
+    background-color: #018786;
 }
 #topComponent img{
     border-radius: 20px;
@@ -235,7 +233,7 @@ border-radius: 10px;
 
 /*trending Artists*/
 .trendingA{
-    background-color: #161D35;
+    background-color: #018786;
 
 }
 .trendingA img{
