@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Bokor');
+@import url('https://fonts.googleapis.com/css?family=Kodchasan');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+*{
+    color: #ffff !important;
+
+}
+body{
+    background-color: #001534 !important;
+    padding-bottom: 30px;
+}
+h2{
+    font-family: Kodchasan;
+      font-size: 35px;
+}
+header h1{
+    font-family: Bokor;
+    font-size: 60px;
+}
+header a{
+    font-family: Kodchasan;
+    font-size: 20px;
+
+}
+header #searchDiv{
+    background-color:#FFFEFE66;
+    width: 152px;
+    height: 30px;
+    border-radius: 50px;
+    padding: 0 20px;
+    font-family: Roboto;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#searchDiv img{
+    width: 15.7px;
+    height: 15.7px;
+
+}
+
+header button{
+    background-color:#FA2870 ;
+    border-radius:22.67px ;
+    border: none;
+    width: 88.4px;
+    height:36.13px ;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14.95px;
+}
+
+ #boxSearch{
+    height: 47px;
+    background-color: #0F2950E8;
+    border-radius: 20px;
+}
+#boxSearch input{
+    font-family: Kodchasan;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    height: 34px;
+
+}
+#boxSearch input::placeholder{
+    color: #ffff;
+}
+#boxSearch img{
+  width: 16.7px;
+  height: 16.7px;
+  cursor: pointer;
+}
+
+
+
+/*search cart component*/
+#divCartSearch{
+   
+    height: 95px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+}
+#divCartSearch > img{
+  width: 150px;
+  height: 70px;
+border-radius: 10px;
+}
+#divCartSearch a img{
+    width:30px;
+    height: 30px;
+}
+
+/*carousel*/
+.carousel {
+    width: 588px;
+    height:349px
+    
+}
+.carousel img{
+    width: 588px;
+    height: 349px;
+    border-radius: 20px
+}
+.carousel-caption{
+    top: 0;
+    left: -40% !important;
+} 
+.carousel-caption button{
+    background-color: #FF32788F;
+    width: 157.18px;
+    height:42.64px;
+    border-radius: 50px;
+    font-family: Kodchasan;
+    border: none;
+    font-size: 16px;
+}
+
+.carousel-caption img{
+    width: 33.39px;
+    height: 33.39px;
+}
+.icon-music img{
+    width: 190.95px;
+    height: 81.53px;
+}
+
+
+
+/*details*/
+#details .bg-blur img{
+    height:416px ;
+    filter: blur(5px);
+   border-radius: 20px;
+}
+#details  button{
+    width: 120px;
+    height: 34px;
+    border-radius: 20px;
+    background-color: #FFFFFF36;
+    border: none;
+    font-size:12px;
+    font-family: Kodchasan;
+}
+#details .downlod-high-medium button{
+    background-color:rgb(250, 40, 112, 0.35) ;
+}
+
+#details .top-cart{
+    height: 396px;
+    background-color:#D9D9D940;
+    border-radius: 15px;
+    top: -310px;
+    padding-top: 20px;
+}
+#details .top-cart img{
+    width: 300px;
+    height:300px ;
+
+}
+
+#details .bottom-cart{
+    top: -410px;
+    z-index: 5;
+    height: 200px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, .3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+@media only screen and (max-width:900px){
+    #details .top-cart{
+        top:0;
+    }
+    
+#details .bottom-cart{
+    top: -100px;
+}
+#details .top-cart img{
+    width: 100%;
+}
+#details .col-download{
+    margin-top: -50px;
+}
+
+.carousel-caption{
+    left: -30% !important;
+} 
+}
+
+#details .play img{
+    width: 33.39px;
+    height: 33.39px;
+}
+#details .play button{
+    border: none;
+    background: none;
+}
+
+#details .progressbar-div{
+    width: 90%;
+    margin: 0 auto;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.21);
+    position: relative;
+    cursor: pointer;
+    
+}
+#details .progress-div{
+    height: 100%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+
+#details .duration-ct{
+    font-size: 10px;
+}
+#details .a-details{
+    font-family: Kodchasan;
+    font-size: 20px;
+}
+
+
+/* top */
+
+#topComponent{
+    background-color: #161D35;
+}
+#topComponent img{
+    border-radius: 20px;
+}
+
+/*trending Artists*/
+.trendingA{
+    background-color: #161D35;
+
+}
+.trendingA img{
+    border-radius: 100%;
+}
+
+.link-play {
+    bottom: -40px;
+    right: 40px;
+    transition: 0.5s;
+
+}
+.link-play img{
+    width: 33.39px;
+    height: 33.39px;
+}
+.container-play-icon{
+    cursor: pointer;
+}
+.container-play-icon:hover .link-play{
+    bottom: 20px;
+}
