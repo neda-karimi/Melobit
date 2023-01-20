@@ -1,5 +1,5 @@
 import React from 'react';
-import play from '../images/play.svg'
+import play from '../pics/play.svg'
 import {Link} from 'react-router-dom';
 
 
